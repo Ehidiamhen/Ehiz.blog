@@ -37,7 +37,7 @@ body{
 .header{
     grid-area: hd;
     text-align: center;
-    border-bottom: 3px solid green;
+    border-bottom: 3px solid #3498DB;
     /*background-color: #f4f1eb;*/
 }
 
@@ -76,11 +76,11 @@ body{
 }
 a:link {
     text-decoration: none;
-    color: green;
+    color: #3498DB;
 } 
 a:visited {
     text-decoration: none;
-    color: green;
+    color: #3498DB;
 } 
 a:hover {
     text-decoration: underline;
@@ -121,4 +121,7 @@ li a:hover:not(.active){
 .name{
     padding-left: 200px;
     padding-right: 300px;
+}
+img {
+    border-radius: 50%;
 }
