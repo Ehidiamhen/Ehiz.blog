@@ -21,7 +21,7 @@ body{
 .container{
     display: grid;
     grid-template-columns: 100px 1200px; 
-    grid-template-rows: 70px 500px 900px 200px;
+    grid-template-rows: 70px 400px 900px 200px;
     grid-template-areas: 
     "hd hd hd"
     "sd sd sd"
@@ -53,6 +53,9 @@ body{
 .footer{
     grid-area: ft;
     font-size: 20px;
+    border-top: 1px solid #1d2a35;
+    text-align: center;
+    padding-left: 500px;
 }
 .buttons{
     background-color: rgb(13, 23, 33);
@@ -91,14 +94,15 @@ ul{
     margin: 0;
     padding: 0px;
     overflow: hidden;
-    background-color: #263644;
+    border-radius: 5px;
     height: 70px;
-    position: fixed;
     top: 0;
     width: 98.7%;
 }
 li{
-    float:left;
+    text-align: center;
+    list-style: none;
+    float: left;
 }
 li a{
     display: block;
@@ -116,7 +120,7 @@ li a:hover:not(.active){
     background-color:rgb(13, 23, 33);
 }
 .active{
-    background-color: #1d3a35;
+    margin-left: 470px;
 }
 .name{
     padding-left: 200px;
@@ -124,4 +128,14 @@ li a:hover:not(.active){
 }
 img {
     border-radius: 50%;
+}
+#ten{
+    padding-right: 500px;
+}
+.a{
+    display: inline;
+    margin-top: 10px;
+    margin-right: 400px;
+    margin-left: 85px;
+    font-weight: 100;
 }
